@@ -102,6 +102,9 @@ function getFile(fileName)
 	});
 }
 
+var dateArrayMul = [33,1,1000,1000];
+
+
 function getFiles()
 {
 	loadHeaderFile();
@@ -115,12 +118,13 @@ function getFiles()
 			{
 				var tempName = contentListing[i].replace('.csv','').split('_');
 				var shortDate = 0;
-
+				var dateMul=0;
 				for(var j = 0; j < tempName.length; j++)
 				{
 					if(!isNaN(tempName[j]))
 					{
-						shortDate = shortDate + parseFloat(tempName[j])*Math.pow(100,i); 
+						shortDate = shortDate + parseFloat(tempName[j])*dateArrayMul[dateMul];
+						dateMul = dateMul<3 ? dateMul+1 : dateMul;						
 					}
 				}
 				
