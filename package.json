@@ -1,0 +1,22 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NASS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NateZimmer/Logger.git"
+  },
+  "author": "NZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NateZimmer/Logger/issues"
+  },
+  "homepage": "https://github.com/NateZimmer/Logger#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

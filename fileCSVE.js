@@ -114,7 +114,16 @@ function getFiles()
 			if(contentListing[i].includes('.csv'))
 			{
 				var tempName = contentListing[i].replace('.csv','').split('_');
-				var shortDate = parseFloat(tempName[1])*33+parseFloat(tempName[2]);
+				var shortDate = 0;
+
+				for(var j = 0; j < tempName.length; j++)
+				{
+					if(!isNaN(tempName[j]))
+					{
+						shortDate = shortDate + parseFloat(tempName[j])*Math.pow(100,i); 
+					}
+				}
+				
 				fileArraySorted.push([shortDate,contentListing[i]]);
 				fileArray.push({'name':contentListing[i]});
 

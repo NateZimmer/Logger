@@ -1,18 +1,19 @@
 
 
 body{
-	margin: 0px;
-	background: radial-gradient(#333 10%, #111 100%);
-	color: #FFF;
-	font-family: "Segoe UI", Tahoma, sans-serif;
+    margin: 0px;
+    background: radial-gradient(#404040 10%, #212121 100%);
+    color: #FFF;
+    font-family: "Segoe UI", Tahoma, sans-serif;
 }
 
 #banner{
     background-color: #333;
-	background: linear-gradient(#666, #000);	
+    background: linear-gradient(#666, #2d2d2d);
     width: 100%;
+    box-shadow: inset 0px 30px 0px rgba(255, 255, 255, 0.05), 0px 0px 10px rgba(0,0,0,0.5);
     height: 60px;
-	color: #FFF;
+    color: #FFF;
 }
 
 select{
@@ -118,14 +119,14 @@ option{
 }
 
 #mainContent{
-	background-color: #222;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     width: 100%;
-	margin-left: 10px;
-	margin-right: 10px;
-	display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
     align-items: center;
-	overflow: hidden;
-	border: 1px rgba(255,255,255,0.1);
+    overflow: hidden;
+    border: 1px rgba(255,255,255,0.1);
     border-style: solid;
 }
 
@@ -134,7 +135,7 @@ option{
     text-shadow: 1px 1px 0px #000;
     color: #444;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 11px;
     line-height: 30px;
 }
