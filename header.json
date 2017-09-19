@@ -1,0 +1,20 @@
+{
+    "header":["Y1 (Cool, 65==off)",
+        "G (Fan)",
+        "W1 (Heat)",
+        "Room Temp(Deg F)",
+        "Outdoor Air Temp",
+        "Time"],
+    "digitalInputs": ["W1",
+        "W2",
+        "Y1",
+        "Y2",
+        "G",
+        "Aux",
+        "OCCeff",
+        "OCCsched",
+        "TestMode",
+        "Y1 (Cool, 65==off)",
+        "G (Fan)",
+        "W1 (Heat)"]
+}

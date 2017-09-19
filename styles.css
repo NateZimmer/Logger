@@ -1,0 +1,150 @@
+
+
+body{
+	margin: 0px;
+	background: radial-gradient(#333 10%, #111 100%);
+	color: #FFF;
+	font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#banner{
+    background-color: #333;
+	background: linear-gradient(#666, #000);	
+    width: 100%;
+    height: 60px;
+	color: #FFF;
+}
+
+select{
+    font-weight: bold;
+}
+
+option{
+	font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#fileSelect{
+	width: -webkit-fill-available;
+	height:200px;
+	width:200px;
+	background-color:#2d2d2d;
+	color:#FFF;
+	font-family: "Segoe UI", Tahoma, sans-serif;
+	border: 1px solid rgba(255,255,255,0.1);
+}
+
+#loaderDiv{
+	width:100%;
+	text-align:center;
+}
+
+.loading {
+    text-shadow: 0 0 20px #ff;
+    font-family: "lft-etica",sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 56px;
+    color: #FFF;
+    text-shadow: 0 0 20px #FFF;
+}
+
+.navT{
+    height: 24px;
+    font-size: 12px;
+    background: linear-gradient(#666, #000);
+    box-shadow: inset 0px 12px 0px rgba(255, 255, 255, 0.1);
+    line-height: 24px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    font-weight: bold;
+    margin-bottom: 1px;
+    border: 0px;
+    border-bottom: 1px rgba(255,255,255,0.1);
+    border-style: solid;
+}
+
+#bannerText{
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    font-family: "lft-etica",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: medium none;
+	font-size: 23px;
+	line-height: 60px;
+	margin-left: 20px;
+}
+
+.IButton {
+    font-family: "lft-etica",sans-serif;
+    font-size: 12px;
+    background-color: #555;
+    color: #FFF;
+    border: 1px solid #555;
+    padding: 0px 12px;
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24), inset 0px 12px 0px rgba(255,255,255,0.1);
+    font-weight: 600;
+    margin: 5px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.bigButtonStyle {
+    min-width: 150px;
+    min-height: 40px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.32), inset 0px 20px 0px rgba(255,255,255,0.05);
+    background: radial-gradient(farthest-corner at 50% 0px ,rgba(255,255,255,0.1) 10%, rgba(0,0,0,0.1) 92%);
+    border: 1px solid rgba(255,255,255,0.15);
+    background-color: #444;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    outline: none;
+}
+
+#contentWraper{
+	margin-top:10px;
+	display: flex;
+    height: calc(100vh - 100px);
+}
+
+#mainContent{
+	background-color: #222;
+    width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+    align-items: center;
+	overflow: hidden;
+	border: 1px rgba(255,255,255,0.1);
+    border-style: solid;
+}
+
+#foot{
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+
+#navLeft{
+	background: radial-gradient(farthest-corner at 50% 0px ,#333 10%, #222 100%);
+    border: 1px rgba(255,255,255,0.1);
+    border-style: solid;
+	margin-left:10px;
+	box-shadow: 0px 0px 20px #111;
+	width: 200px;
+}
