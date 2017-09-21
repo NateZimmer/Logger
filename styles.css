@@ -14,6 +14,8 @@ body{
     box-shadow: inset 0px 30px 0px rgba(255, 255, 255, 0.05), 0px 0px 10px rgba(0,0,0,0.5);
     height: 60px;
     color: #FFF;
+	display: flex;
+    align-items: center;
 }
 
 select{
@@ -66,6 +68,16 @@ option{
     border-style: solid;
 }
 
+.navItem{
+    font-family: "lft-etica",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: medium none;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
 #bannerText{
 	text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.7);
     font-style: italic;
@@ -73,8 +85,7 @@ option{
     font-weight: 600;
     text-transform: uppercase;
     border: medium none;
-	font-size: 23px;
-	line-height: 60px;
+	font-size: 30px;
 	margin-left: 20px;
 }
 
