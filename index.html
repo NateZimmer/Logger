@@ -11,23 +11,33 @@
 	</div>
 	<div id='contentWraper'>
 		<div id='navLeft'>
-			<div class='navT'>Plot Files</div>
-			<select size='3' id='fileSelect'>
+			
+			<div id='sideNavPlot'>
+				<div class='navT'>Plot Files</div>
+				<select size='3' id='fileSelect'>
 
-			</select>
-			<div class='navT' style='margin-top: 3px;'>Plot Controls</div>
-			<div style='text-align:center'>
-				Min / Max Y Bound: <br>
-				<input type="number" id='minYBound' value="0" style=" width: 50px; margin-right: 10px;">
-				<input type="number" id='maxYBound' value="0" style="width: 50px; margin-right: 10px;"> <br>
-				Data Points: <b><span id='dataPointTotal'>0</span></b> <br>
-				<button id="refreshPlot" class='bigButtonStyle' style="margin-top:5px">Refresh Plot</button>
+				</select>
+				<div class='navT' style='margin-top: 3px;'>Plot Controls</div>
+				<div style='text-align:center'>
+					Min / Max Y Bound: <br>
+					<input type="number" id='minYBound' value="0" style=" width: 50px; margin-right: 10px;">
+					<input type="number" id='maxYBound' value="0" style="width: 50px; margin-right: 10px;"> <br>
+					Data Points: <b><span id='dataPointTotal'>0</span></b> <br>
+					<button id="refreshPlot" class='bigButtonStyle' style="margin-top:5px">Refresh Plot</button>
+				</div>
 			</div>
+
+			
+
 		</div>
 		
-		<div id='mainContent' >
-			<div id='loaderDiv' class='loading'>Loading</div>
-			<div id="plotDiv" style="width: 100%; display: none; height: 100%;" class="divBorder"></div>
+		<div id='mainContent'>
+
+			<div id='plotMainContent' style='width:100%;'>
+				<div id='loaderDiv' class='loading'>Loading</div>
+				<div id="plotDiv" style="width: 100%; display: none; height: 100%;" class="divBorder"></div>
+			</div>
+
 		</div>
 		
 	</div>
@@ -36,11 +46,10 @@
 </body>
 
 <footer>
-	<script src='jquery-2.1.4.min.js'></script>
-	<script src='plotly.min.js'></script>
-	<script src='Maths.js'></script>
-	<!-- <script src='fileCSV.js'></script> -->
-	<script src='fileCSVE.js'></script>
+	<script src='web_client/jquery-2.1.4.min.js'></script>
+	<script src='web_client/plotly.min.js'></script>
+	<script src='web_client/Maths.js'></script>
+	<script src='web_client/clientApp.js'></script>
 </footer>
 
 </html>
