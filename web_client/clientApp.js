@@ -347,4 +347,33 @@ var Wpb = 10;
 
 console.log('Loading app');
 require('./Plot_UI');
-},{"./Plot_UI":2}]},{},[3]);
+require('./nav');
+},{"./Plot_UI":2,"./nav":4}],4:[function(require,module,exports){
+
+
+
+var pageArray = ['Plotting','Bacnet','Logging'];
+var pageDivs = [['sideNavPlot','plotMainContent']];
+
+
+$('.navItem').on('click',function(e){
+	
+	$('.navContent').hide();
+	$('.navItem').css('color','#fff');
+	for(var i = 0; i < pageArray.length; i++)
+	{
+		if(pageArray[i] == e.currentTarget.innerHTML)
+		{
+			e.currentTarget.style.color='#ff6000';
+			if(pageDivs[i] != undefined)
+			{
+				for(var j = 0; j< pageDivs[i].length; j++)
+				{
+					$( '#'+pageDivs[i][j]).show();
+				}
+				break;
+			}
+		}
+	}
+});
+},{}]},{},[3]);
